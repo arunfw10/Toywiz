@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+        <style>
+            body{
+              }
+              #header{
+            background-color:#092b50;
+        }
+        #heatop{
+            display: flex;
+            flex-direction: row;
+            
+           
+        }
+        #heatop > div{
+         font-size: 20px;
+         font-weight: 700;
+         color: #ffb800;
+         margin: 20px 10px 10px 10px;
+         cursor: pointer;
+        }
+        #heatop >div :hover{
+          color: #09f;
+        }
+
+        
+        #heabot{
+            display: flex;
+            flex-direction: row;
+
+        }
+        #heabot >div :hover{
+            border: 1px solid white;
+            border-radius: 4px;
+            padding: 4px;
+            color: #09f;
+        } 
+       
+        #search-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 442px;
+    height: 39px;
+    margin-left: 245px;
+    box-shadow: 0 1.5px 5px 1px hsla(0, 0%, 0%, 0.151);
+    border-radius: 3px;
+}
+
+#search-box > input {
+    border: none;
+    width: 420px;
+    height: 36px;
+    border-radius: 5px;
+    padding: 1px 2px 1px 13px;
+    font-size: 15px;
+    outline: none;
+}
+
+#search-box > img {
+    width: 19px;
+    height: 19px;
+    margin: auto 10px auto 10px;
+}
+.act{
+    background-color: #014f7d;
+    width: 20px;
+}
+#heabot >div{
+         font-size: 16px;
+         font-weight: 500;
+         color: white;
+         margin: 10px 10px 10px 10px;
+         cursor: pointer;
+        }
+        #heabot >div>h1{
+            font-size: 22px;
+         font-weight: 700;
+         color: white;
+         margin: 0px 10px 10px 10px;
+
+        }
+        #account{
+            color: white;
+        }
+        #login{
+            background: transparent;
+            color: white;
+            font-size: 14px ;
+            font-weight: 600;
+            cursor: pointer;
+            padding: 7px;
+
+        }
+        #cart{
+            background: transparent;
+            color: white;
+            font-size: 14px ;
+            font-weight: 600;
+            cursor: pointer;
+
+        }
+        #stickers{
+            display: flex;
+            flex-direction: row;
+
+        }
+        #stickers>div{
+            width: 10%;
+            margin: 10px 0px 10px 0px;
+            cursor: pointer;
+           
+        }
+        #stickers>div>img{
+            max-width: 100%;
+        }
+
+
+
+            #loginmain{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color:  #333;
+                font-family: "Open Sans",Arial,Helvetica,sans-serif;
+                font-weight: 500;
+              }
+              #loginmain>div{
+                  margin: 40px;
+              }
+            h1{ font-size: 34px;
+                margin-top: 80px;
+                margin-bottom: 20px;
+                color: #09f;
+                text-align: center;
+            }
+            #form>div{
+                margin: 20px;
+            }
+            .signup-form-title-input-box{
+                margin-top:  25px;
+                width: 400px;
+                height: 40px;
+                border-radius: 4px;
+                border: 1px solid green;
+            }
+            #signup-form-submit-btn{
+                width: 150px;
+                height: 50px;
+                margin: 10px 30px 10px 30px ;
+                background-color: #014f7d;
+                border-color: #014f7d;
+                color: #fff;
+                border-style: solid;
+                border-width: 1px;
+    cursor: pointer;
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding: .85714rem 2.28571rem;
+    border-radius: 4px;
+    outline: 0;
+            }
+            #createaccount{
+                width: 250px;
+                height: 50px;
+                margin: 10px 10px 10px 10px ;
+                background-color: #014f7d;
+                border-color: #014f7d;
+                color: #fff;
+                border-style: solid;
+                border-width: 1px;
+    cursor: pointer;
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 17px;
+    padding: .85714rem 2.28571rem;
+    border-radius: 4px;
+    outline: 0;
+            }
+            #footer{
+            background-color: #014f7d;
+          
+        }
+        #footer1{
+            display: flex;
+            flex-direction: row;
+            border-bottom: 1px solid #089df3;
+           
+        }
+        #footer1 >div{
+          width: 23%;
+          margin: 1%;
+          text-align: center;
+          color:#089df3;
+
+        }
+        #footer1>div>h1{
+            color: white;
+            font-size: 20px;
+            letter-spacing: 2px;
+        }
+        #footer-hr-line {
+           width: 1110px;
+           height: 0;
+           margin: auto;
+           margin-top: 30px;
+           border-bottom: 1px solid #fff;
+           opacity: 0.1;
+          }
+          .footer2{
+              margin: auto;
+              padding: 20px;
+              text-align: center;
+              color: white;
+          }
+          #data {
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: 20% 20% 20% 20%;
+      grid-gap: 5%;
+    }
+
+    #data>div >img {
+      width: 40%;
+    }
+
+    #data div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #cartDetail {
+      margin-top: 20px;
+    }
+    .utton{
+        width: 250px;
+                height: 50px;
+                margin: 10px 10px 10px 10px ;
+                background-color: #ffb800;
+                border-color: #ffb800;
+                color: #092b50;
+                border-style: solid;
+                border-width: 1px;
+    }
+        </style>
+        <body>
+            <div id="header">
+                <div id="heatop">
+                    <div style="margin-top: 2px;">
+                        <img src="https://cdn11.bigcommerce.com/s-0kvv9/images/stencil/150x90/download_1488532903__91319_1490718830.original.png">
+                    </div>
+                    <div id="search-box">
+                        <input
+                            type="text"
+                            id="search-input"
+                            placeholder="Enter Keyword and Product Number"
+                        />
+                       
+                    </div>
+                    <div>
+                       <span> NEW ARRIVALS</span> 
+                    </div>
+                    <div>
+                        <span>PRE-ORDERS</span>
+                    </div>
+                    <div>
+                      <span>
+                        BLOWOUT
+        
+                      </span>  
+        
+                    </div>
+                    <div>
+                        <a href="C:\Users\arunamal\Desktop\logintoy.html">
+        
+                       
+                       <button  id="login">
+                        <i id="account" class="fas fa-user"></i>
+                        Account
+                       </button>
+                    </a>
+                           
+                            
+                            
+        
+                        
+                                  </div>
+                                  <div>
+                                    <i id="account" class="fa-solid fa-circle-envelope"></i>
+                                  </div>
+                                 
+                    <div >
+                        <button id="cart">
+                            <img src="https://cdn11.bigcommerce.com/s-0kvv9/stencil/3db0b4d0-dc1d-0139-35d7-46e39c32b38c/e/c71c39a0-dc1e-0139-7758-1e80c6e1f80d/img/cart.png">
+                   
+                        CART
+                        </button>
+                         </div>
+                </div>
+                <div id="heabot">
+                 <div>
+                    <h1> =SHOP ALL BRANDS</h1>
+                 </div>
+                 <div>
+                    <h1>TRENDING :</h1> 
+                </div>
+                <div>
+                   <a>2021 Jersy Fusion</a> 
+                </div>
+                <div>
+                  <a>
+                    Akkedo Battling Game
+        
+                  </a> 
+                </div>
+                <div>
+                    <a>
+                        Pokemon Celebrations
+        
+                    </a>
+                  
+                </div>
+                <div>
+                    <a>
+                        Yugio Maximum Gold El
+        
+                    </a>
+                  
+                </div>
+                <div>
+                    <a>
+                        Pokemon Evolving Skies
+        
+                    </a>
+                   
+                </div>
+                </div>
+                </div>
+                <div id="stickers">
+                   
+                   
+                   <div>
+                       <img src="https://cdn11.bigcommerce.com/s-0kvv9/product_images/uploaded_images/funko.jpg?t=1608474729&_ga=2.103623304.900992686.1608404914-860777650.1607377629">
+                   </div>
+                  
+                   <div>
+                    <img src="https://cdn11.bigcommerce.com/s-0kvv9/product_images/uploaded_images/neca.jpg?t=1603983529&_ga=2.171648808.900992686.1608404914-860777650.1607377629">
+               
+                   </div>
+                   <div>
+                    <img src="https://cdn11.bigcommerce.com/s-0kvv9/product_images/uploaded_images/akedologo.jpg?t=1626715331&_gl=1*3h4gx2*_ga*MTYyMTc1NDEyMC4xNjE5NzE4MjAz*_ga_WS2VZYPC6G*MTYyNjcxNTA1OC41LjEuMTYyNjcxNTMwNy40NA">
+           
+                   </div>
+                   <div>
+                    <img src="https://cdn11.bigcommerce.com/s-0kvv9/product_images/uploaded_images/needohlogo.jpg?t=1627490546&_gl=1*105k04h*_ga*MTYyMTc1NDEyMC4xNjE5NzE4MjAz*_ga_WS2VZYPC6G*MTYyNzQ5MDQxMi4xMy4xLjE2Mjc0OTA1MzUuNTM">
+               
+                   </div>
+                   <div>
+                       <img src="https://cdn11.bigcommerce.com/s-0kvv9/product_images/uploaded_images/yugioh.jpg?t=1603982900&_ga=2.218566047.766016770.1603902397-1961616064.1589478313">
+                   </div>
+                   <div>
+                    <img src="https://cdn11.bigcommerce.com/s-0kvv9/product_images/uploaded_images/e7b913722297c221d59a2c42a43.jpg?t=1613243787&_ga=2.214679191.183333366.1613152641-629964443.1612016872">
+                </div>
+                   <div>
+                       <img src="https://cdn11.bigcommerce.com/s-0kvv9/product_images/uploaded_images/pokemon.jpg?t=1603982109&_ga=2.222285214.766016770.1603902397-1961616064.1589478313https://cdn11.bigcommerce.com/s-0kvv9/product_images/uploaded_images/yugioh.jpg?t=1603982900&_ga=2.218566047.766016770.1603902397-1961616064.1589478313">
+                   </div>
+                   <div>
+                    <img src="https://cdn11.bigcommerce.com/s-0kvv9/product_images/uploaded_images/marvel.jpg?t=1608474750&_ga=2.108824202.900992686.1608404914-860777650.1607377629">
+            
+                   </div>
+                   <div>
+                    <img src="https://cdn11.bigcommerce.com/s-0kvv9/product_images/uploaded_images/hotsellers.jpg?t=1622820036&_ga=2.133994055.857700858.1622815799-1621754120.1619718203">
+                   </div>
+                    <div>
+                    <img src="https://cdn11.bigcommerce.com/s-0kvv9/product_images/uploaded_images/starwars.jpg?t=1603982103&_ga=2.209636884.766016770.1603902397-1961616064.1589478313">
+           
+                   </div>
+                  
+                   
+                </div>
+            </div>
+            <h1>
+               CART PAGE
+            </h1>
+            <div id="data"></div>
+            <div id="cartDetail"></div>
+              <button onclick="confirmation()" class="utton">Make payment</button>
+              <button class="utton"><a href="C:\Users\arunamal\Desktop\unit2myproject\toywiz.html">Continue Shopping</a></button>
+              
+
+             
+                    
+           
+                            <div class="null">
+
+                            </div>
+                            <div id="footer">
+                                <div id="footer1">
+                                <div>
+                                   <h1>
+                                       ABOUT TOYWIZ
+                                   </h1>
+                                   <p>
+                                       ABOUT TOYWIZ
+                                   </p>
+                                   <p>
+                                       Contact US
+                                   </p>
+                                   <p>
+                                    Pre Orders
+                                </p>
+                                   <p>
+                                       Retail Store Info
+                                   </p>
+                                   <p>
+                                       Toy wiz is buying
+                                   </p>
+                                   <p>
+                                    Covid 19 Update
+                                </p>
+                                   
+                                    <p>
+                                        Quantity Price and Limit
+                                    </p>
+                                   
+                                </div>
+                                <div>
+                                    <h1>
+                                        ORDER HELP
+                                    </h1>
+                                    <p>
+                                        Track MY Package
+                                    </p>
+                                    <p>
+                                        Helping Ordering
+                                    </p>
+                                    <p>
+                                        International Orders
+                                    </p>
+                                    <p>
+                                        Pay by amazon payments
+                                    </p>
+                                    <P>
+                                        Pay by Pay pal
+                                    </P>
+                                   
+                        
+                                </div>
+                                <div>
+                                    <h1>
+                                        TOYWIZ POLICIES
+                                    </h1>
+                                    <P>
+                                        Shipping Policies
+                                    </P>
+                                    <P>
+                                        Return and Cancellation
+                                    </P>
+                                    <P>
+                                        Privacy and Security
+                                    </P>
+                                    <P>
+                                        Condition Policy
+                                    </P>
+                                    <P>
+                                        AMDA Policy
+                                    </P>
+                                    <P>
+                                        CCPA Policy
+                                    </P>
+                        
+                                </div>
+                                <div>
+                                    <img src="https://cdn11.bigcommerce.com/s-0kvv9/stencil/3db0b4d0-dc1d-0139-35d7-46e39c32b38c/e/c71c39a0-dc1e-0139-7758-1e80c6e1f80d/img/address.png">
+                                    <p>
+                                        3#NG  Spook Rock road Bldng
+                                    </p>
+                                    <P>
+                                        Suffern NY 10901
+                                    </P>
+                                    <img src="https://cdn11.bigcommerce.com/s-0kvv9/stencil/3db0b4d0-dc1d-0139-35d7-46e39c32b38c/e/c71c39a0-dc1e-0139-7758-1e80c6e1f80d/img/internet.png">
+                        
+                                </div>
+                                </div>
+                                <div class="footer2">
+                                    ⓒ Copy Right ToyWiz 2021 .All rights reserved
+                                </div>
+                            </div>
+                        </body>
+                        </html>
+                        <script>
+                            let cart_data = JSON.parse(localStorage.getItem("cart"));
+                            console.log(cart_data);
+                          
+                            function showProducts() {
+                              let data_div = document.getElementById("data");
+                          
+                              cart_data.forEach(function (product) {
+                                let div = document.createElement("div");
+                          
+                                let p_name = document.createElement("p");
+                          
+                                p_name.innerText = product.name;
+                          
+                                let p_price = document.createElement("p");
+                          
+                                p_price.innerText = product.price;
+                          
+                                let image = document.createElement("img");
+                          
+                                image.src = product.image;
+                          
+                                //   let btn = document.createElement("button");
+                          
+                                //   btn.innerHTML = "Add to cart";
+                                //   btn.onclick = function () {
+                                //     addtoCart(product);
+                                //   };
+                                div.append(image, p_name, p_price);
+                          
+                                data_div.append(div);
+                              });
+                          
+                              var price = 0;
+                              cart_data.forEach((element) => {
+                                price += Number(element.price);
+                              });
+                              document.getElementById(
+                                "cartDetail"
+                              ).innerHTML = `Total Price - ${price} Rs`;
+                            }
+                          
+                            function confirmation() {
+                              setTimeout(function () {
+                                alert("Payment Successful");
+                              }, 4000);
+                            }
+                          
+                            showProducts();
+                          </script>
+                        
